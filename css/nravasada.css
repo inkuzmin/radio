@@ -1,0 +1,26 @@
+/**
+ * Created by PhpStorm.
+ * User: inkuzmin
+ * Date: 8/24/14
+ * Time: 12:51 AM
+ */
+
+#nrv_cover {
+    display: inline-block;
+    height: 350px;
+    width: 350px;
+    border-radius: 500px;
+    background-color: #aaaaaa;
+    background-size: cover;
+    background-position: center;
+}
+
+#nrv_cover > div {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/heart.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
